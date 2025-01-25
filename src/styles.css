@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+body {
+  font-family:"Audiowide",sans-serif;
+  background-color:rgb(177, 174, 174); 
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-container {
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.sort-button {
+  background-color:rgb(255, 136, 0);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+}
+
+.user-table th {
+    background-color:rgb(255, 200, 0);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.user-table tr:first-child {
+    border-top: none;
+}
+
+.user-table td {
+    background-color: white;
+}
+
+
+.user-table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .user-table {
+        font-size: 0.9rem;
+    }
+
+    .user-table th, .user-table td {
+        padding: 8px;
+    }
+}
+
+
+.sort-button:hover {
+  background-color:rgb(255, 0, 0)
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+}
+
+.user-table th {
+    background-color:rgb(255, 25, 0);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+    background-color:rgb(240, 104, 104);
+}
+
+.user-table tr:hover {
+    background-color:rgb(241, 241, 241);
+}
+
+.user-table tr:first-child {
+    border-top: none;
+}
+
+.user-table td {
+    background-color: white;
+}
+
+
+.user-table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .user-table {
+        font-size: 0.9rem;
+    }
+
+    .user-table th, .user-table td {
+        padding: 8px;
+    }
+}
+
+.add-user-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.user-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.add-button {
+  background-color:rgb(250, 98, 4);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.close-modal-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.close-modal-button:hover {
+  background-color: #c82333;
+}
+
+.goal-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.goal-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.goal-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.goal-item p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.user-row:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+.summary-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.summary-section h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
